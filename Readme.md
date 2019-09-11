@@ -46,4 +46,4 @@ Usalo como ejemplos o bien solo dale un vistazo, tiene muchos bugs
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤ por [aeonics](https://github.com/aeonics) 😊
