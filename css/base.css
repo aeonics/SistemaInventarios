@@ -1,0 +1,364 @@
+/*BASE no se debe mover*/
+#menu {
+position: absolute;
+width: 200px;
+left: 10px;
+padding:0px;
+margin:0px;
+}
+html {
+padding:0px;
+margin:0px;
+}
+body {
+background-color: #e1ddd9;
+font-size: 12px;
+font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+color:#564b47;
+padding:0px 20px;
+margin:0px;
+background-image: url("../imagen/wallpaper_login.jpg");
+}
+#CONTENIDO {
+   margin-left: 200px;
+   margin-top: 1px;
+   background-color:#fff;
+   padding: 5px;
+   overflow: auto;
+   margin-bottom: auto;
+
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0.9;
+}
+.tiempo{
+   width: 100px;
+   font-weight: bold;
+   display: inline-block;
+   text-align: center;
+
+}
+/*BASE no se debe mover*/
+/*A partir de aqui son estilos individuales*/
+/*LOGO Y SITIO*/
+#logo-menu {
+   margin-top: 20px;
+   text-align:center;
+}
+#logo-menu a{
+   text-decoration: none;
+   color: #3A95F0;
+   font-weight: bolder;
+}
+#logo-menu a:hover{
+   text-decoration: underline;
+
+}
+/*LOGO Y SITIO*/
+/*TITULO PARA LOS MODULOS*/
+#TITULOMODULOS{
+   margin-top: 25px;;
+   text-align: center;
+   text-shadow: 1px 1px grey;
+   font-size: 25px;;
+}
+/*TITULO PARA LOS MODULOS*/
+/*++++++++++++++++++++++++*/
+#TITULOXMODULO h1{
+   display: inline;
+   padding: 5px;
+   position: relative;
+   top: -10px;
+}
+/*++++++++++++++++++++++++*/
+
+/*MENU DE MODULOS*/
+
+#MODULOS{
+   margin-top: 25px;
+   padding: 3px 3px;
+}
+#MODULOS ul{
+   list-style: none;
+   margin: 0;
+   padding: 5px;
+
+}
+#MODULOS li a{
+   font-family: arial, verdana, sans-serif;
+   padding: 7px 8px;
+   display: block;
+   font-size: 14px;
+   font-weight: bold;
+   background: #000;
+   text-decoration: none;
+   border-color: #fff;
+   text-indent: 0.5em;
+   color: #fff;
+   border-bottom: 1px solid #33373d;
+   border-left: 4px solid #3a95f0;
+}
+#MODULOS li a:hover{
+   background: #3A95F0;
+   color: #000;
+   margin: 0 0 0 5px;
+}
+#boton_enviar {
+   background: #0066A2;
+   color: white;
+   border-style: outset;
+   border-color: #0066A2;
+   height: 50px;
+   width: 100px;
+   font: bold 15px arial, sans-serif;
+   margin-left: 45%;
+}
+.error{
+   font-size: 14px;
+   font-weight: bold;
+   font-style: italic;
+}
+
+/*MENU DE MODULOS*/
+/*++++++++++++++++++++++++++++++++++++++++++++*/
+/*MENU DE ACCIONES*/
+#MENU_ACCIONES{
+   padding: 0;
+   margin: 0;
+}
+#MENU_ACCIONES ul{
+   margin: 0;
+   padding: 0;
+}
+#MENU_ACCIONES li{
+   display: inline;
+   padding: 0;
+}
+#MENU_ACCIONES li a{
+   font-family: Arial,sans-serif;;
+   border-bottom: 1px solid #33373d;
+   font-size:16px;
+   text-decoration: none;
+   float:left;
+   padding: 7px 8px;
+   font-weight: bold;
+   background-color: #2175bc;
+   color: #fff;
+   border-radius: 10px 5px;
+   box-shadow: 2px 2px grey;
+   margin-left: 10px;
+
+
+}
+#MENU_ACCIONES li a:hover{
+   background-color: #000;
+   margin-top:-2px;
+   padding-bottom:12px;
+}
+
+/*TERMINA MENU DE ACCIONES*/
+
+/********************************/
+/*ESTO ES DE LA BIENVENIDA*/
+#contenido1{
+   text-align: center;
+   display: block;
+}
+#contenido1 img{
+   width: 300px;
+   height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#contenido1 img:hover{
+   border-radius: 200px 200px 200px;
+   width: 350px;
+}
+#contenido1 p{
+   font-family: arial, sans-serif;
+   font-size: 16px;
+   text-align: justify;
+   padding: 10px;
+}
+#contenido1 h4{
+   font-family: arial, sans-serif;
+   font-size: 18px;
+}
+#contenido1 h2{
+   font-family: arial, sans-serif;
+   color: #000;
+   font-size: 20px;
+   text-decoration: underline;
+}
+#contenido1 h3{
+   font-family: arial, sans-serif;
+   color: #3a95f0;
+   font-weight: bold;
+}
+#contenido1 hr {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+#contenido1 hr:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}/*TERMINA BIENVENIDA*/
+/***********************************/
+
+/******************************/
+/*FORMULARIOS*/
+.formulario_general{
+    /*max-width: 550px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;*/
+}
+.formulario_general ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.formulario_general ul li{
+    display: inline-flex;
+    margin-bottom: 10px;
+    min-height: 35px;
+}
+.formulario_general ul li  .campo-estilo{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+
+}.formulario_general ul li  .campo-estilo:focus{
+    box-shadow: 0 0 5px #B0CFE0;
+    border:1px solid #B0CFE0;
+}
+.formulario_general ul li .campo-cortado{
+    width: 49%;
+}
+.formulario_general ul li .field-full{
+    width: 100%;
+}
+.formulario_general ul li input.align-left{
+    float:left;
+}
+.formulario_general ul li input.align-right{
+    float:right;
+}
+.formulario_general ul li textarea{
+    width: 100%;
+    height: 100px;
+}
+.formulario_general ul li input[type="button"],
+.formulario_general ul li input[type="submit"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.formulario_general ul li input[type="button"]:hover,
+.formulario_general ul li input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
+}
+legend{
+   font-size: 14px;
+   margin: 5px;
+   font-weight: bold;
+}
+fieldset{
+   color: #337DA8;
+
+}
+/*TERMINA FORMULARIOS*/
+/*BOTONES DE ADMINISTRADOR*/
+
+.button {
+   display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.7em;
+    font: bold 1.5em/1.5em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+.button span {
+	margin-right:10px;
+}
+.button:hover {
+   background-color: #ddd;
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');
+}
+.button:active {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.button:focus {
+    outline: 0;
+    background: #fafafa;
+}
+
+.button:before {
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;
+}
+.add:before {
+    content: "\271A";
+}
+.spark:before {
+    content: "\2737";
+}
+.play:before {
+    content: "\25B6";
+}
+/*TERMINA BOTONES DE ADMINISTRACION*/
